@@ -1,0 +1,375 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: black;
+    letter-spacing: 1px;
+}
+
+h1 {
+    text-align: left;
+}
+
+.nomeEfrase {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    margin-left: 5rem;
+    gap: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+img {
+    border-radius: 15rem;
+    width: 150px;
+    margin-left: 20rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:rgba(126, 155, 250, 0.548);
+    padding: 2%;
+    gap: 10rem;
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(214, 244, 253);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 1.5%;
+}
+
+main {
+    display: flex;
+    width: 55%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 7%;
+    padding-left: 8%;
+    gap: 5rem;
+}
+
+.containerSobremim {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 20px;
+    gap: 40px;
+    text-align: justify;
+    align-items: center;
+}
+
+.textoInfosExtras {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    width: 90%;
+    font-size: 20px;
+    align-items: center;
+}
+
+.containerHabilidades {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 20px;
+    gap: 80px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 5%;
+    margin-top: -5%;
+    gap: 15px;
+}
+
+#tituloProjetos {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetosPai {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    gap: 80px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(195, 238, 160);
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.containerProjetos {
+    width: 100%;
+    padding-top: 7%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadaProjeto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 7%;
+    align-items: center;
+    padding-bottom: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 50px;
+}
+
+.projeto1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(234, 164, 188);
+}
+
+.projeto2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(234, 164, 188);
+}
+
+
+hr #infosExtras {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    height: 10rem;
+}
+
+.mainEaside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+}
+
+.containerInfosExtras {
+    display: flex;
+    padding-top: 7%;
+    width: 30%;
+    flex-direction: column;
+    gap: 3.5%;
+    font-size: 18px;
+    align-items: center;
+}
+
+h4 {
+    margin-top: 10%;
+}
+
+.redesSociais {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    gap: 5%;
+    margin-top: 1%;
+    background-color: rgb(195, 238, 160);
+    text-align: center;
+}
+
+.cadaRede {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(195, 238, 160);
+    text-align: center;
+}
+
+.rede1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    background-color: rgb(234, 164, 188);
+}
+
+.rede2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    background-color: rgb(234, 164, 188);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color:rgba(155, 178, 252, 0.548);
+    font-size: 23px;
+}
+
+.contato {
+    flex-direction: row;
+}
+
+
+.direitosAutorais {
+    gap: 4rem;
+    font-size: 20px;
+}
+
+@media (max-width: 930px) {
+    h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .nomeEfrase {
+        width: 50vh;
+        font-size: 1.3rem;
+        margin-left: 4rem;
+    }
+
+    img {
+        border-radius: 25rem;
+        width: 150px;
+        height: 150px;
+        margin-left: 4rem;
+    }
+
+    nav {
+        width: 100vh;
+        justify-content: center;
+        gap: 130px;
+        padding: 1.5rem;
+    }
+
+    header {
+        width: 100vh;
+        padding: 10%;
+    }
+
+    main {
+        width: 50vh;
+        padding-top: 10%;
+    }
+
+    .containerSobremim {
+        width: 40vh;
+        font-size: 1.5rem;
+        gap: 40px;
+
+    }
+
+    .textoInfosExtras {
+        width: 30vh;
+        font-size: 1.5rem;
+    }
+
+    .containerHabilidades {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        width: 40vh;
+        margin-left: 4rem;
+        text-align: left;
+    }
+
+    .projetosPai {
+        width: 40vh;
+        height: 70%;
+        font-size: 1.5rem;
+    }
+
+    .containerProjetos {
+        width: 40vh;
+        padding-top: 15%;
+        padding-bottom: 0%;
+    }
+
+    .cadaProjeto {
+        flex-direction: column;
+        width: 40vh;
+        height: 60vh;
+        
+    }
+
+    .projeto1 {
+        margin-top: 2rem;
+        padding: 20%;
+    }
+
+    .projeto2 {
+        padding: 20%;
+        margin-bottom: -2rem;
+    }
+
+    .mainEaside {
+        width: 100vh;
+    }
+
+    .containerInfosExtras {
+        padding-top: 10%;
+        gap: 40px;
+    }
+
+    h4 {
+        margin-top: 10%;
+    }
+
+    .cadaRede {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1px;
+        width: 30vh;
+        height: 40vh;
+        gap: 30px;
+    }
+
+    .rede1 {
+        width: 20vh;
+        padding: 6%;
+
+    }
+
+    .rede2 {
+        width: 20vh;
+        padding: 6%;
+    }
+
+    footer {
+        width: 100vh;
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+}
