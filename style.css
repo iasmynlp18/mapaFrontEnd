@@ -39,7 +39,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:rgba(117, 148, 250, 0.503);
+    background-color:rgba(158, 180, 255, 0.613);
     padding: 2%;
     gap: 10rem;
     font-size: 21px;
@@ -53,7 +53,7 @@ a {
     background-color: rgb(214, 244, 253);
     padding: 10px;
     border-radius: 20px;
-    border-bottom: 5px solid rgba(14, 28, 74, 0.7);
+    border-bottom: 5px solid rgba(83, 103, 168, 0.7);
 }
 
 main {
@@ -118,7 +118,7 @@ ul {
     font-size: 20px;
     border-radius: 30px;
     align-items: center;
-    background-color: rgb(195, 238, 160);
+    background-color: rgb(210, 241, 185);
     margin-bottom: 20%;
 }
 
@@ -154,8 +154,8 @@ h5 {
     text-align: justify;
     justify-content: center;
     align-items: left;
-    background-color: rgba(250, 255, 175, 0.788);
-    border-left: 8px solid rgba(255, 147, 137, 0.946);
+    background-color: rgb(251, 255, 202);
+    border-left: 8px solid rgba(255, 211, 206, 0.946);
 }
 
 .projeto2 {
@@ -167,8 +167,8 @@ h5 {
     text-align: justify;
     justify-content: center;
     align-items: left;
-    background-color: rgba(250, 255, 175, 0.788);
-    border-left: 8px solid rgb(255, 150, 150);
+    background-color: rgb(251, 255, 202);
+    border-left: 8px solid rgba(255, 211, 206, 0.946);
 }
 
 .mainEaside {
@@ -209,7 +209,7 @@ h4 {
     height: 11%;
     gap: 5%;
     border-radius: 20px;
-    background-color: rgb(195, 238, 160);
+    background-color: rgb(210, 241, 185);
     text-align: center;
 }
 
@@ -222,7 +222,7 @@ h4 {
     border-radius: 20px;
     justify-content: center;
     gap: 30px;
-    background-color: rgb(195, 238, 160);
+    background-color: rgb(210, 241, 185);
     text-align: center;
 }
 
@@ -231,15 +231,15 @@ h4 {
     justify-content: space-evenly;
     height: 3rem;
     padding: 4%;
-    background-color: rgba(255, 179, 171, 0.946);
+    background-color: rgba(255, 211, 206, 0.946);
     border-radius: 10px;
-    border-top: 4px solid rgba(240, 247, 150, 0.913);
+    border-top: 4px solid rgba(251, 255, 202, 0.788);
     align-items: center;
 }
 
 .rede1:hover {
-    border-top: 4px solid rgba(255, 147, 137, 0.946);
-    background-color: rgba(228, 235, 132, 0.913);
+    border-top: 4px solid rgba(255, 211, 206, 0.946);
+    background-color: rgba(251, 255, 202, 0.788);
 }
 
 .rede2 {
@@ -247,15 +247,15 @@ h4 {
     justify-content: space-evenly;
     height: 3rem;
     padding: 4%;
-    background-color: rgba(255, 179, 171, 0.946);
+    background-color: rgba(255, 211, 206, 0.946);
     border-radius: 10px;
-    border-top: 4px solid rgba(240, 247, 150, 0.913);
+    border-top: 4px solid rgba(251, 255, 202, 0.788);
     align-items: center;
 }
 
 .rede2:hover {
-    border-top: 4px solid rgba(255, 147, 137, 0.946);
-    background-color: rgba(240, 247, 150, 0.913);
+    border-top: 4px solid rgba(255, 211, 206, 0.946);
+    background-color: rgba(251, 255, 202, 0.788);
 }
 
 footer {
@@ -265,7 +265,7 @@ footer {
     align-items: center;
     padding: 1.5rem;
     gap: 1rem;
-    background-color:rgba(155, 178, 252, 0.548);
+    background-color:rgba(158, 180, 255, 0.613);
     font-size: 23px;
 }
 
