@@ -24,14 +24,22 @@ h1 {
 img {
     border-radius: 15rem;
     width: 150px;
-    margin-left: 20rem;
+    margin-left: 20%;
+}
+
+header {
+    background-color: rgb(214, 244, 253);
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 2%;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color:rgba(126, 155, 250, 0.548);
+    background-color:rgba(117, 148, 250, 0.503);
     padding: 2%;
     gap: 10rem;
     font-size: 21px;
@@ -41,12 +49,11 @@ a {
     text-decoration: none;
 }
 
-header {
+.linksNav:hover {
     background-color: rgb(214, 244, 253);
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    padding: 1.5%;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 5px solid rgba(14, 28, 74, 0.7);
 }
 
 main {
@@ -58,6 +65,7 @@ main {
     padding-top: 7%;
     padding-left: 8%;
     gap: 5rem;
+    align-items: center;
 }
 
 .containerSobremim {
@@ -65,18 +73,13 @@ main {
     flex-direction: column;
     width: 90%;
     font-size: 20px;
-    gap: 40px;
+    gap: 50px;
     text-align: justify;
     align-items: center;
 }
 
-.textoInfosExtras {
-    display: flex;
-    text-align: justify;
-    flex-direction: column;
+.sections {
     width: 90%;
-    font-size: 20px;
-    align-items: center;
 }
 
 .containerHabilidades {
@@ -85,7 +88,7 @@ main {
     width: 90%;
     font-size: 20px;
     gap: 80px;
-    text-align: justify;
+    text-align: left;
     justify-content: center;
     align-items: center;
 }
@@ -103,69 +106,69 @@ ul {
     width: 100%;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .projetosPai {
     display: flex;
-    flex-direction: row;
-    padding-top: 5%;
+    flex-direction: column;
     width: 100%;
-    height: 70%;
+    height: 80%;
+    padding: 8%;
     font-size: 20px;
-    gap: 80px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    border-radius: 30px;
+    align-items: center;
     background-color: rgb(195, 238, 160);
-    text-align: center;
     margin-bottom: 20%;
 }
 
 .containerProjetos {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    padding-top: 7%;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .cadaProjeto {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
+    width: 80%;
     justify-content: center;
-    padding-top: 7%;
     align-items: center;
-    padding-bottom: 20%;
-    padding-left: 20%;
-    padding-right: 20%;
-    gap: 50px;
+    padding-top: 7%;
+    gap: 40px;
+}
+
+h5 {
+    font-size: 1.1rem;
 }
 
 .projeto1 {
     display: flex;
-    flex-direction: row;
-    padding: 10%;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(234, 164, 188);
+    flex-direction: column;
+    padding: 9%;
+    gap: 30px;
+    border-radius: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(250, 255, 175, 0.788);
+    border-left: 8px solid rgba(255, 147, 137, 0.946);
 }
 
 .projeto2 {
     display: flex;
-    flex-direction: row;
-    padding: 10%;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(234, 164, 188);
-}
-
-
-hr #infosExtras {
-    display: flex;
     flex-direction: column;
-    padding-top: 5%;
-    height: 10rem;
+    padding: 9%;
+    gap: 30px;
+    border-radius: 20px;
+    text-align: justify;
+    justify-content: center;
+    align-items: left;
+    background-color: rgba(250, 255, 175, 0.788);
+    border-left: 8px solid rgb(255, 150, 150);
 }
 
 .mainEaside {
@@ -180,22 +183,32 @@ hr #infosExtras {
     padding-top: 7%;
     width: 30%;
     flex-direction: column;
-    gap: 3.5%;
+    gap: 50px;
     font-size: 18px;
     align-items: center;
+    border-left: 2px;
 }
 
 h4 {
     margin-top: 10%;
 }
 
+.textoInfosExtras {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    width: 90%;
+    font-size: 20px;
+    align-items: center;
+}
+
 .redesSociais {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 15%;
+    width: 80%;
+    height: 11%;
     gap: 5%;
-    margin-top: 1%;
+    border-radius: 20px;
     background-color: rgb(195, 238, 160);
     text-align: center;
 }
@@ -205,9 +218,10 @@ h4 {
     flex-direction: row;
     margin-top: 5%;
     width: 100%;
-    height: 30%;
+    height: 25%;
+    border-radius: 20px;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     background-color: rgb(195, 238, 160);
     text-align: center;
 }
@@ -215,15 +229,33 @@ h4 {
 .rede1 {
     display: flex;
     justify-content: space-evenly;
+    height: 3rem;
     padding: 4%;
-    background-color: rgb(234, 164, 188);
+    background-color: rgba(255, 179, 171, 0.946);
+    border-radius: 10px;
+    border-top: 4px solid rgba(240, 247, 150, 0.913);
+    align-items: center;
+}
+
+.rede1:hover {
+    border-top: 4px solid rgba(255, 147, 137, 0.946);
+    background-color: rgba(228, 235, 132, 0.913);
 }
 
 .rede2 {
     display: flex;
     justify-content: space-evenly;
+    height: 3rem;
     padding: 4%;
-    background-color: rgb(234, 164, 188);
+    background-color: rgba(255, 179, 171, 0.946);
+    border-radius: 10px;
+    border-top: 4px solid rgba(240, 247, 150, 0.913);
+    align-items: center;
+}
+
+.rede2:hover {
+    border-top: 4px solid rgba(255, 147, 137, 0.946);
+    background-color: rgba(240, 247, 150, 0.913);
 }
 
 footer {
@@ -231,7 +263,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
     gap: 1rem;
     background-color:rgba(155, 178, 252, 0.548);
     font-size: 23px;
@@ -241,29 +273,31 @@ footer {
     flex-direction: row;
 }
 
-
 .direitosAutorais {
     gap: 4rem;
     font-size: 20px;
 }
 
-@media (max-width: 930px) {
+
+
+@media (max-width: 1000px) {
     h1 {
         text-align: left;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .nomeEfrase {
-        width: 50vh;
+        width: 60vh;
         font-size: 1.3rem;
         margin-left: 4rem;
+        margin-right: 2.5rem;
     }
 
     img {
         border-radius: 25rem;
         width: 150px;
         height: 150px;
-        margin-left: 4rem;
+        margin-left: 2.5rem;
     }
 
     nav {
@@ -275,7 +309,7 @@ footer {
 
     header {
         width: 100vh;
-        padding: 10%;
+        padding: 5%;
     }
 
     main {
@@ -287,12 +321,12 @@ footer {
         width: 40vh;
         font-size: 1.5rem;
         gap: 40px;
-
     }
 
     .textoInfosExtras {
         width: 30vh;
         font-size: 1.5rem;
+        margin-bottom: 3rem;
     }
 
     .containerHabilidades {
@@ -307,31 +341,29 @@ footer {
 
     .projetosPai {
         width: 40vh;
-        height: 70%;
+        padding-top: 13%;
         font-size: 1.5rem;
     }
 
     .containerProjetos {
         width: 40vh;
-        padding-top: 15%;
         padding-bottom: 0%;
     }
 
     .cadaProjeto {
         flex-direction: column;
-        width: 40vh;
-        height: 60vh;
-        
+        width: 30vh;
+        margin-top: 2rem;
+        gap: 50px;
+        padding-bottom: 9%;
     }
 
     .projeto1 {
-        margin-top: 2rem;
-        padding: 20%;
+        font-size: 1.2rem;
     }
 
     .projeto2 {
-        padding: 20%;
-        margin-bottom: -2rem;
+        font-size: 1.2rem;
     }
 
     .mainEaside {
@@ -339,37 +371,43 @@ footer {
     }
 
     .containerInfosExtras {
-        padding-top: 10%;
+        height: 2%;
+        padding-top: 11%;
         gap: 40px;
+    }
+    
+    .redesSociais {
+        height: 20%;
+        align-items: center;
     }
 
     h4 {
-        margin-top: 10%;
+        margin-top: 15%;
+        font-size: 1.2rem;
     }
 
     .cadaRede {
+        height: 30%;
         flex-direction: column;
         align-items: center;
-        margin-top: 1px;
-        width: 30vh;
-        height: 40vh;
-        gap: 30px;
+        margin-top: 2rem;
+        gap: 25px;
+        margin-bottom: 15%;
     }
 
     .rede1 {
-        width: 20vh;
+        width: 60%;
         padding: 6%;
-
     }
 
     .rede2 {
-        width: 20vh;
+        width: 60%;
         padding: 6%;
     }
 
     footer {
         width: 100vh;
-        padding: 2rem;
+        padding: 1.5rem;
         font-size: 1.5rem;
     }
 }
